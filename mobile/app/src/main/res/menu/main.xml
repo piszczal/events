@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/sort"
+        android:icon="@drawable/ic_sort"
+        android:title=""
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item android:id="@+id/sort_title"
+                android:title="Po tytule"/>
+            <item android:id="@+id/sort_description"
+                android:title="Po opisie"/>
+            <item android:id="@+id/sort_date"
+                android:title="Po dacie"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/refresh"
+        android:title=""
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom"/>
+
+</menu>
